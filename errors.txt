@@ -1,0 +1,82 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/init_Voice.rpy", line 1140: expected '=' not found.
+    define Isabel_348
+                     ^
+
+File "game/init_Voice.rpy", line 1141: expected '=' not found.
+    define Isabel_349
+                     ^
+
+File "game/init_Voice.rpy", line 1142: expected '=' not found.
+    define Isabel_350
+                     ^
+
+File "game/init_Voice.rpy", line 1144: expected '=' not found.
+    define Isabel_351
+                     ^
+
+File "game/init_Voice.rpy", line 1145: expected '=' not found.
+    define Isabel_352
+                     ^
+
+File "game/init_Voice.rpy", line 1146: expected '=' not found.
+    define Isabel_353
+                     ^
+
+File "game/init_Voice.rpy", line 1147: expected '=' not found.
+    define Isabel_354
+                     ^
+
+File "game/init_Voice.rpy", line 1148: expected '=' not found.
+    define Isabel_355
+                     ^
+
+File "game/init_Voice.rpy", line 1149: expected '=' not found.
+    define Isabel_356
+                     ^
+
+File "game/init_Voice.rpy", line 1150: expected '=' not found.
+    define Isabel_357
+                     ^
+
+File "game/init_Voice.rpy", line 1151: expected '=' not found.
+    define Isabel_358
+                     ^
+
+File "game/init_Voice.rpy", line 1152: expected '=' not found.
+    define Isabel_359
+                     ^
+
+File "game/init_Voice.rpy", line 1153: expected '=' not found.
+    define Isabel_360
+                     ^
+
+File "game/init_Voice.rpy", line 1155: expected '=' not found.
+    define Isabel_361
+                     ^
+
+File "game/init_Voice.rpy", line 1156: expected '=' not found.
+    define Isabel_362
+                     ^
+
+File "game/init_Voice.rpy", line 1157: expected '=' not found.
+    define Isabel_363
+                     ^
+
+File "game/init_Voice.rpy", line 1158: expected '=' not found.
+    define Isabel_364
+                     ^
+
+File "game/init_Voice.rpy", line 1159: expected '=' not found.
+    define Isabel_365
+                     ^
+
+File "game/init_Voice.rpy", line 1160: expected '=' not found.
+    define Isabel_366
+                     ^
+
+Ren'Py Version: Ren'Py 7.4.6.1693
+Fri Mar 31 11:41:31 2023
