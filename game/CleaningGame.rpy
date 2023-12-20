@@ -1,29 +1,3 @@
-﻿###by 7dots Ruslan Nebykov
-###license: cc by-sa
-###free use, when specifying the author
-# This is a mini-game to find items
-# save this code to the game.rpy file in the root of the game
-
-# Called like this:
-# $ InitGame("bg_room", 5.0, True, (735, 300), "figure1", (640, 226), "figure2", (288, 38), "figure3", (115, 260), "figure4")
-# $ StartGame()
-# where bg_room is the name of the background file without an extension .jpg
-# 5.0 - the number of seconds to execute the search (if <= 0, the timer is disabled)
-# (735, 300), "figure1" - coordinates and file name of the object
-# without extension .png
-# items can be as many as you like
-# all backgrounds and pictures of objects should be in the images folder
-# at the exit - true or false (met within the allotted time or not)
-# number of items found in the variable oLen
-# total number of items in the variable maxLen
-
-# $ GameAsBG () # shows the screen with pictures as a background, not clickable
-
-# in the sounds folder should be the sound of "click.mp3"
-# or, if it does not, then comment out the line:
-# renpy.play ("sounds / click.mp3", channel = "sound")
-
-
 init:
     image BG1 = "images/BG_Hall.png"
     default rand = 0
