@@ -72,10 +72,8 @@ init:
 
 
 init python:
-    # window in the center of the screen
     import os
     os.environ['SDL_VIDEO_CENTERED'] = '1'
-    # automatic sprites
     config.automatic_images_minimum_components = 1
     config.automatic_images = [' ', '_', '/']
     config.automatic_images_strip = ["images"]
@@ -262,7 +260,6 @@ init python:
             oCg.append(cgs)     # CG를 순서대로 저장
 
 
-    # Running the game
     def StartGame():
         global oActive, ExitMenu
         oActive = True
