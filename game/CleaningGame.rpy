@@ -171,7 +171,7 @@ init python:
 
 
     # 1, 2, 3, 4로 bg page를 구분하고 그에 맞는 변수에 각 매개변수들을 삽입
-    # Initialize the game, placing items on the screen
+    # 게임의 기본 설절을 정하고 메인 Screen에 띄워줌.
     def InitGame(bg, time):
         global oBg, oCg, oXY, oN, oCombo, oLen, maxLen, oLast, oTime, oMaxTime, oActive, needTimer, oRes, nowCount
         global oTrashSeet, oTrashPos, CleaningPoint, oArea_X_1, oArea_X_2, oArea_Y_1, oArea_Y_2
@@ -276,16 +276,14 @@ init python:
         ExitMenu = True
 
 
-    # Show the game screen as an inactive background
-    # Items already found will not be displayed
-    # 시작을 여기서 하므로 윤사랑의 청소구역 페이지를 띄워줌
+    # 여기서 각 캐릭터별 청소구역 페이지를 띄워줌
     def GameAsBG():
         global oActive
         oActive = False
         renpy.show_screen("game_page", _layer="master")
 
 
-    # The click handler for the item
+    # 클릭하여 아이템을 체크함.
     def o_click(i):
         global oLen, oRes, oTrashSeet, oTrashPos, oN, oXY, oCombo, nowCount, CleaningPoint
         if i >= 0:
@@ -340,8 +338,6 @@ init python:
     oSClick = renpy.curry(o_specal_click)
 
 # init 5 python:
-
-# Actually the game screen, run from the function StartGame ()
 screen game_page:
     modal True
     if oActive and needTimer:
