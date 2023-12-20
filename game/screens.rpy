@@ -1275,7 +1275,7 @@ screen Sarang_Gallery():
     tag menu
 
     add "gui/overlay/Gallery_menu.png"
-
+    # 사진첩의 다음 페이지로 이동하는 이벤트 버튼
     imagebutton:
         idle "gui/button_main/Setting_Arrow_R.png"
         hover "gui/button_main/Setting_Arrow_on_R.png"
@@ -1283,7 +1283,7 @@ screen Sarang_Gallery():
         activate_sound "audio/EffectSound/paper2.wav"
         action ShowMenu("Elice_Gallery")
         align (.97, .55)
-
+    # 2열 3행으로 해금된 이미지가 표시되며 확대하여 해당 이미지와 연속되는 이미지를 보여주는 이벤트 버튼을 생성함. 
     grid 3 2:
         xfill True
         yfill True
